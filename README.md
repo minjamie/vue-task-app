@@ -19,4 +19,6 @@ This is a Vue.js-based task management dashboard for managing tasks. It allows u
 - **State Management**: Vuex
 - **API**: Axios for communicating with the backend API.
 
-## build
+## Deploy URL
+
+https://euphonious-dusk-b74163.netlify.app
