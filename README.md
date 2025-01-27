@@ -1,41 +1,28 @@
-# task-dashboard
+# Task Management Dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Vue.js-based task management dashboard for managing tasks. It allows users to view tasks, add new tasks, mark tasks as completed, and delete tasks. The dashboard is mobile-friendly and implements lazy loading for improved performance.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Task List**: Displays a list of tasks with title, description, due date, and completion status.
+- **Add New Task**: Allows users to add a new task with title, description, and due date.
+- **Task Completion**: Mark tasks as completed.
+- **Task Deletion**: Delete tasks from the list.
+- **Task Filtering**: Filter tasks by all, completed, or incomplete status.
+- **Responsive Design**: Mobile-friendly layout using Bootstrap.
+- **Performance Optimisation**: Lazy load tasks with a "Load More" button.
 
-## Customize configuration
+## Technical Details
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Frontend Framework**: Vue.js
+- **Styling**: Bootstrap 5
+- **State Management**: Vuex
+- **API**: Axios for communicating with the backend API.
 
-## Project Setup
+## Setup Instructions
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/minjamie/vue-task-app.git
+   cd vue-task-app
+   ```
