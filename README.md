@@ -18,3 +18,5 @@ This is a Vue.js-based task management dashboard for managing tasks. It allows u
 - **Styling**: Bootstrap 5
 - **State Management**: Vuex
 - **API**: Axios for communicating with the backend API.
+
+## build
